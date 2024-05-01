@@ -15,7 +15,7 @@ export default function Interests() {
   
   return (
     <>
-      <h1 className="text-6xl my-10">INTERESTS</h1>
+      <h1 className="text-6xl my-10 text-[#0000FF]">INTERESTS</h1>
       <h1 className="text-4xl my-10 ml-4">Cyber Security</h1>
       <Splide aria-labelledby="My Favorite Images">
     <SplideSlide>
