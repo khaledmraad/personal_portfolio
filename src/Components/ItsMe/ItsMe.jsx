@@ -25,10 +25,11 @@ export default function ItsMe(){
                 </div>
 
                 </div>
-                    <div className="mt-10 Roboto">
-                    I'm a Software Engineer at HPE, sometimes a public speaker, and a community organizer and moderator. 
-                    I enjoy writing about UI tooling,
-                     front-end web development, design systems, static site generators, and JavaScript!      
+                    <div className="text-[#343A40] mt-10 Roboto text-xl leading-8   ">
+                    I’m a second-year computer science engineering student at ENSI, driven
+                    by a passion for applying my knowledge to tackle real-world challenges.
+                    I thrive on the dynamic nature of this field and am committed to continuously honing my skills to make meaningful contributions to the
+                    world of technology.    
                      </div>          
             </div>
 

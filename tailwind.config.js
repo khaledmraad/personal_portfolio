@@ -5,6 +5,7 @@ module.exports = {
   ],
   theme: {
     colors: {
+      "primary":"#343A40",
       'blue': '#1fb6ff',
       'purple': '#7e5bef',
       'pink': '#ff49db',
@@ -21,6 +22,7 @@ module.exports = {
     require('daisyui'),
 
   ],
+  
  
 
 }
