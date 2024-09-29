@@ -1,29 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './Components/Header/Header';
-import ItsMe from './Components/ItsMe/ItsMe';
-import Skills from './Components/Skills/Skills';
-import Education from './Components/Education/Education';
-import Interests from './Components/Intrests/Interests';
-import Projects from './Components/Projects/Projects';
-import ContactMe from './Components/ContactMe/ContactMe';
-import Footer from './Components/Footer/Footer';
+import logo from "./logo.svg";
+import "./App.css";
+import Home from "./Components/Home/Home";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
-    <div className=" flex justify-center items-center">
-      <div className="w-2/5	">
-      <Header></Header>
-      <ItsMe></ItsMe>
-      <Skills></Skills>
-      <Education></Education>
-      <Interests></Interests>
-      <Projects></Projects>
-      <ContactMe></ContactMe>
-      <Footer></Footer>
+      <div className=" flex justify-center items-center ">
+        <div className="sm:w-5/5 md:w-5/8 lg:w-1/2 px-10">
+        <BrowserRouter>
+            <Routes>
+                <Route exact path="/" element={<Home/>}/>
+            </Routes>
+
+        </BrowserRouter>
+          
+          
+        </div>
       </div>
-    </div>
     </>
   );
 }
