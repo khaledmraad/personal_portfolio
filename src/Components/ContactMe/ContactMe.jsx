@@ -76,7 +76,7 @@ export default function ContactMe() {
           <CloseIcon />
         </IconButton>
         <DialogContent dividers>
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-[#000000] dark:text-[#ffffff]">
             Send Email
           </h2>
           <form action="#" class="space-y-8">

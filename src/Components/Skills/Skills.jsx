@@ -11,13 +11,16 @@ export default function Skills() {
 
   return (
     <div>
-      <h1 className="text-6xl  my-10" id="Skills">
-        SKILLS
+      <h1 className="text-6xl  my-10 dark:text-[#ffffff]" id="Skills">
+      SKILLS
+      </h1>
+      <h1 className="text-4xl dark:text-[#ffffff] ">
+      Development Skills
       </h1>
 
 
       <AccordionNoice
-      isExpanded={expanded === "pannel1"}
+      isExpanded="true"
       name="pannel1" 
       imgSrc={require("../../assets/img/cyber-security.png")}
       skillTopic="Cyber Security"

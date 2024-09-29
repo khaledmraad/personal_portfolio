@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
   return (
     <>
-      <h1 className="text-6xl my-10" id="Projects">
+      <h1 className="text-6xl my-10 dark:text-[#ffffff]" id="Projects">
         PROJECTS
       </h1>
 

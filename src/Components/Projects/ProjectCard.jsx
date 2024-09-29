@@ -21,7 +21,7 @@ export default function ProjectCard(props) {
 </div> */}
 
 
-      <a className="group flex flex-col items-center border rounded-lg shadow md:flex-row relative mb-4">
+      <a className="group flex flex-col items-center border rounded-lg shadow md:flex-row relative mb-4 dark:text-[#ffffff]">
         <img
           className="object-cover w-full rounded-lg  md:h-auto md:w-48 md:rounded-none md:rounded-lg"
           src={props.imgPath}
@@ -29,11 +29,11 @@ export default function ProjectCard(props) {
         />
 
         <div className="flex flex-col justify-between ml-4 leading-normal">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-[#343A40]">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-[#343A40] dark:text-[#ffffff]">
             {props.title}
           </h5>
 
-          <p className="font-black mb-3 text-[#343A40]">{props.name}</p>
+          <p className="font-black mb-3 text-[#343A40] dark:text-[#ffffff]">{props.name}</p>
 
           <div className="flex flex-row ">
             <button

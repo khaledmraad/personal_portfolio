@@ -3,18 +3,18 @@ import React from "react";
 export default function Education() {
   return (
     <>
-      <h1 className="text-6xl  my-10" id="Education">
+      <h1 className="text-6xl  my-10 dark:text-[#ffffff]" id="Education">
         {" "}
         EDUCATION
       </h1>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
           <div className="timeline-middle">
-            <svg
+          <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="green"
-              className="h-5 w-5"
+              className="h-5 w-5 "
             >
               <path
                 fillRule="evenodd"
@@ -25,10 +25,10 @@ export default function Education() {
           </div>
           <div className="timeline-start md:text-end mb-10">
             <time className="font-mono italic ">
-              <h1 className="text-black">2019</h1>
+              <h1 className="text-black dark:text-[#ffffff]">2019</h1>
             </time>
             <div className="text-lg font-black">
-              <h1 className="font-black">Bacalaureate in Mathematics</h1>
+              <h1 className="font-black dark:text-[#ffffff]">Bacalaureate in Mathematics</h1>
             </div>
             <h1 className="text-green">Soukrine Teboulba high school</h1>
           </div>
@@ -52,14 +52,14 @@ export default function Education() {
           </div>
           <div className="timeline-end mb-10">
             <time className="font-mono italic">
-              <h1 className="text-black">2019-2022</h1>
+              <h1 className="text-black dark:text-[#ffffff]">2019-2022</h1>
             </time>
             <div className="text-lg font-black">
-              <h1 className="font-black">
+              <h1 className="font-black dark:text-[#ffffff]">
                 Preparatory Institute for Engineering Studies of Nabeul
               </h1>
             </div>
-            <h1 className="text-green">IPEIN</h1>
+            <h1 className="text-green ">IPEIN</h1>
           </div>
           <hr />
         </li>
@@ -81,10 +81,10 @@ export default function Education() {
           </div>
           <div className="timeline-start md:text-end mb-10">
             <time className="font-mono italic">
-              <h1 className="text-black">2022 - Present</h1>
+              <h1 className="text-black dark:text-[#ffffff]">2022 - Present</h1>
             </time>
             <div className="text-lg font-black">
-              <h1 className="font-black">
+              <h1 className="font-black dark:text-[#ffffff]">
                 National School Of Computer Science
               </h1>
             </div>

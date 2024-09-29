@@ -14,15 +14,15 @@ import "@splidejs/react-splide/css/core";
 export default function Interests() {
   return (
     <>
-      <h1 className="text-6xl my-10 " id="Interests">
+      <h1 className="text-6xl my-10 dark:text-[#ffffff]" id="Interests">
         INTERESTS
       </h1>
-      <h1 className="text-4xl mt-4 ml-4">Cyber Security</h1>
+      <h1 className="text-4xl mt-4 ml-4 dark:text-[#ffffff]">Cyber Security</h1>
 
       <Splide hasTrack={false} aria-label="...">
         <SplideTrack>
           <SplideSlide>
-            <h1>Enit Got the Flag 1.0 (ENIT)</h1>
+            <h1 className="dark:text-[#ffffff]">Enit Got the Flag 1.0 (ENIT)</h1>
             <img
               src={require("../../assets/img/ctf1-fe5e0b6e.jpg")}
               alt="Image 2"
@@ -30,7 +30,7 @@ export default function Interests() {
             />
           </SplideSlide>
           <SplideSlide>
-            <h1>HackFest 8.0 (SUP'COM)</h1>
+            <h1 className="dark:text-[#ffffff]">HackFest 8.0 (SUP'COM)</h1>
             <img
               src={require("../../assets/img/hackfest8.jpg")}
               alt="Image 2"
@@ -38,7 +38,7 @@ export default function Interests() {
             />
           </SplideSlide>
           <SplideSlide>
-            <h1>HackFest 7.0 (SUP'COM)</h1>
+            <h1 className="dark:text-[#ffffff]">HackFest 7.0 (SUP'COM)</h1>
             <img
               src={require("../../assets/img/ctf4-925536ad.jpg")}
               alt="Image 2"
@@ -48,12 +48,12 @@ export default function Interests() {
         </SplideTrack>
       </Splide>
 
-      <h1 className="text-4xl mt-4 ml-4">Competetive programming</h1>
+      <h1 className="text-4xl mt-4 ml-4 dark:text-[#ffffff]">Competetive programming</h1>
 
       <Splide hasTrack={false} aria-label="...">
         <SplideTrack>
           <SplideSlide>
-            <h1>Enit Got the Flag 1.0 (ENIT)</h1>
+            <h1 className="dark:text-[#ffffff]">Enit Got the Flag 1.0 (ENIT)</h1>
             <img
               src={require("../../assets/img/cpc2-6220cb0d.jpg")}
               alt="Image 2"
@@ -61,7 +61,7 @@ export default function Interests() {
             />
           </SplideSlide>
           <SplideSlide>
-            <h1>HackFest 8.0 (SUP'COM)</h1>
+            <h1 className="dark:text-[#ffffff]">HackFest 8.0 (SUP'COM)</h1>
             <img
               src={require("../../assets/img/epc2.0.jpg")}
               alt="Image 2"
@@ -71,12 +71,12 @@ export default function Interests() {
         </SplideTrack>
       </Splide>
 
-      <h1 className="text-4xl mt-4 ml-4">Hackathon</h1>
+      <h1 className="text-4xl mt-4 ml-4 dark:text-[#ffffff]">Hackathon</h1>
 
       <Splide hasTrack={false} aria-label="...">
         <SplideTrack>
           <SplideSlide>
-            <h1>Enit Got the Flag 1.0 (ENIT)</h1>
+            <h1 className="dark:text-[#ffffff]">Enit Got the Flag 1.0 (ENIT)</h1>
             <img
               src={require("../../assets/img/isamm.jpg")}
               alt="Image 2"
